@@ -1,0 +1,9 @@
+{
+	"batch_size": 128,
+	"epochs": 100,
+	"hidden_dim": 128,
+	"num_tokens": 141,
+	"max_seq_len": 350,
+	"dataset_name": "en_de_base_wmt16",
+	"num_training_samples": null
+}

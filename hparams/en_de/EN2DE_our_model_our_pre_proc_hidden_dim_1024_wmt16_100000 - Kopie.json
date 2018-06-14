@@ -1,0 +1,20 @@
+ {
+	"dim_src_lang_vec": 300,
+	"dim_tgt_lang_vec": 300,
+	"maxlen": 50,
+	"n_en_vec": 400000,
+	"lr": 1e-3,
+	"batch_size": 128,
+	"epochs": 100,
+	"optimizer": "adam",
+	"hidden_dim": 1024,
+	"attention": false,
+	"sos": true,
+	"eos": true,
+	"unk": true,
+	"num_training_samples": 1000000,
+	"expected_src_vocab_size": 40000,
+	"expected_tgt_vocab_size": 40000,
+	"dataset_name": "en_de_our_wmt16",
+	"p_dense_dropout": 0.2
+}
